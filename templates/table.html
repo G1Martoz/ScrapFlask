@@ -1,18 +1,22 @@
-<!DOCTYPE html>
-<html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tabla de Posiciones</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css') }}">
-</head>
-<body>
+{% extends "layout.html" %}
+
+{% block content %}
     <div class="container">
-        <h2 class="text-center mt-5 mb-4">Tabla de Posiciones</h2>
+        <h2 class="text-center mt-5 mb-4"><strong>FlaskScrap</strong></h2>
+        <div class="alert alert-info" role="alert">
+            <h4 class="alert-heading">¡Bienvenido!</h4>
+            <p>Para ver la tabla de posiciones, sigue estos pasos:</p>
+            <ol>
+                <li>Ejecuta el script de web scraping scrapy.py.</li>
+                <li>Ejecuta la aplicación Flask con python app.py.</li>
+                <li>Accede a la aplicación en tu navegador web:</li>
+                <p><a href="http://localhost:5000">http://localhost:5000</a></p>
+                <li>Verás la tabla de clasificación de la liga deportiva obtenida mediante web scraping.</li>
+            </ol>
+        </div>
         <div class="table-responsive">
-            <table class="table table-striped table-hover">
-                <thead class="table-light">
+            <table class="table table-dark table-striped">
+                <thead>
                     <tr>
                         <th>Posición</th>
                         <th>Equipo</th>
@@ -21,15 +25,14 @@
                 </thead>
                 <tbody>
                     {% for row in data %}
-                    <tr>
-                        <td>{{ loop.index }}</td>
-                        <td>{{ row.nombre }}</td>
-                        <td>{{ row.puntos }}</td>
-                    </tr>
+                        <tr>
+                            <td>{{ loop.index }}</td>
+                            <td>{{ row[1] }}</td>
+                            <td>{{ row[2] }}</td>
+                        </tr>
                     {% endfor %}
                 </tbody>
             </table>
         </div>
     </div>
-</body>
-</html>
+{% endblock %}

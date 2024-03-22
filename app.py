@@ -17,6 +17,7 @@ def index():
     mycursor = mydb.cursor()
     mycursor.execute("SELECT * FROM clasificacion")
     data = mycursor.fetchall()
+    print(data)  # Agrega esta línea para imprimir los datos en la consola
     return render_template('table.html', data=data)
 
 if __name__ == '__main__':

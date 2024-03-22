@@ -1,0 +1,116 @@
+body {
+    background: rgba(19, 19, 19, 0.812);
+}
+
+.bg-black {
+    background: #000;
+}
+
+.card-project:hover {
+    border: 1px solid #fff;
+    cursor: pointer;
+}
+body {
+    font-family: 'JetBrains Mono', monospace;
+}
+
+.seccion-oscura{
+    background: #090909;
+}
+
+/** CONTACTO */
+
+.contacto .container{
+    max-width: 1100px;
+    min-height: 200px;
+    padding: 20px;
+}
+
+.contacto .row{
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.contacto .descripcion{
+    color: white;
+    font-size: 1.2rem;
+}
+
+.contacto button{
+    color: white;
+    font-weight: bold;
+    background-color: transparent;
+    border: 2px solid white;
+    padding: 1.25em 2em;
+    margin: 10px;
+    border-radius: 100px;
+    transition: all 0.2s ease-in-out;
+}
+
+.contacto button i{
+    color: white;
+    font-size: 1.3rem;
+    transition: all 0.2s ease-in-out;
+}
+
+.contacto button:hover{
+    background-color: white;
+    color: black;
+}
+
+.contacto button:hover i{
+    color: black;
+}
+
+/** FOOTER */
+
+footer{
+    min-height: 500px;
+}
+
+.footer-icono{
+    height: 120px;
+    width: 150px;
+    margin: 10px;
+}
+
+.footer-texto{
+    font-size: 1.5rem;
+    padding: 20px;
+    margin-bottom: 30px;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.iconos-redes a{
+    width: 50px;
+    height: 50px;
+    display: flex;   
+    align-items: center;
+    justify-content: center;
+    padding: 2px;
+    margin: 10px;
+    border: 2px solid white;
+    transition: all 0.2 ease-in;
+}
+
+.iconos-redes i{
+    color: white;
+    font-size: 1.5rem;
+    transition: all 0.2 ease-in;
+}
+
+.iconos-redes a:hover{
+    background-color: white;
+    border: 2px solid rgb(13, 110, 253);
+}
+
+.iconos-redes a:hover i{
+    color: black;
+}
+
+.derechos-de-autor{
+    font-size: 15px;
+    color: #aeaeae;
+    padding: 20px;
+}
