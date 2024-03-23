@@ -50,13 +50,14 @@ http://localhost:5000/
 4. Verás la tabla de clasificación de la liga deportiva obtenida mediante web scraping.  `Esto reflejará correctamente el flujo de trabajo necesario para obtener los datos y ejecutar la aplicación Flask.`  
 # Imágenes
 A continuación se muestran algunas capturas de pantalla de la aplicación:
-![App](FlaskScrap/Screenshots/App.png)
 
-![Flask Scrap](FlaskScrap/Screenshots/FlaskScrap.jpeg)
+![App](https://github.com/G1Martoz/ScrapFlask/assets/112987882/2d937476-a813-4919-b5ec-479e98cf053d)
 
-![Scrapy](FlaskScrap/Screenshots/Scrapy.png)
+![FlaskScrap](https://github.com/G1Martoz/ScrapFlask/assets/112987882/adbbe992-490c-459b-96e3-856cd3a244e5)
 
-![Tabla](FlaskScrap/Screenshots/Table.png)
+![Scrapy](https://github.com/G1Martoz/ScrapFlask/assets/112987882/ba248a40-c90c-46ec-82ba-d703ecb8d0c8)
+
+![Table](https://github.com/G1Martoz/ScrapFlask/assets/112987882/5b52c43d-5f84-4714-9658-2efba1d77f69)
 
 # Contribuciones
 ¡Las contribuciones son bienvenidas! Si deseas mejorar esta aplicación o agregar nuevas funcionalidades, no dudes en enviar un pull request.  
