@@ -51,13 +51,16 @@ http://localhost:5000/
 # Imágenes
 A continuación se muestran algunas capturas de pantalla de la aplicación:
 
+# app.py
 ![App](https://github.com/G1Martoz/ScrapFlask/assets/112987882/2d937476-a813-4919-b5ec-479e98cf053d)
 
-
+# scrapy.py
 ![Scrapy](https://github.com/G1Martoz/ScrapFlask/assets/112987882/ba248a40-c90c-46ec-82ba-d703ecb8d0c8)
 
+# table.html
 ![Table](https://github.com/G1Martoz/ScrapFlask/assets/112987882/5b52c43d-5f84-4714-9658-2efba1d77f69)
 
+# Resultados
 ![FlaskScrap](https://github.com/G1Martoz/ScrapFlask/assets/112987882/adbbe992-490c-459b-96e3-856cd3a244e5)
 
 # Contribuciones
