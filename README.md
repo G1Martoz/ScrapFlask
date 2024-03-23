@@ -67,4 +67,4 @@ A continuación se muestran algunas capturas de pantalla de la aplicación:
 # Contribuciones
 ¡Las contribuciones son bienvenidas! Si deseas mejorar esta aplicación o agregar nuevas funcionalidades, no dudes en enviar un pull request.  
 # Licencia
-Este proyecto está bajo la licencia MIT.``
+Este proyecto está bajo la licencia MIT.
